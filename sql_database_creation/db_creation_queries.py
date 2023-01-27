@@ -1,3 +1,19 @@
+database_creation_query = """
+CREATE DATABASE smooth_database;
+"""
+
+show_databases_query = """
+SHOW DATABASES;
+"""
+
+enter_database_query = """
+USE smooth_database;
+"""
+
+show_current_database_query = """
+SELECT DATABASE();
+"""
+
 landlord_query = """
 CREATE TABLE landlords (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
